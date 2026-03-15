@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# Virtual Environment
+qsc_env/
+venv/
+ENV/
+env/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Contract Artifacts
+contract_info.json
+*.json
+!package.json
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ganache data
+.ganache/
+ganache.log
+
+# Results and Charts
+results/*.png
+results/simulation_results.json
+results/final_report.json
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V00
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Compiled Solidity
+*.abi
+*.bin
+
+# liboqs build files
+liboqs/
+_oqs/
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Keys (NEVER commit private keys)
+*.pem
+*.key
+private_key*
+secret*
